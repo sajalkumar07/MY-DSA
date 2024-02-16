@@ -59,8 +59,6 @@ int main(){
     st.push(52);
     st.push(21);
 
-    
-    
     st.pop();
     cout<<st.peek()<<endl;
 
@@ -70,7 +68,6 @@ int main(){
     st.pop();
     cout<<st.peek()<<endl;
     
-
     if(st.isEmpty()){
         cout<<"stack is empty";
     }
